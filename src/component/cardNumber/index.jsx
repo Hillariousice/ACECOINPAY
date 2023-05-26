@@ -5,8 +5,8 @@ const CardNumber = () => {
   return (
     <div className="container mx-auto">
       <div className="py-6">
-        <div className="flex px-4 justify-between">
-          <div className="">
+        <div className="flex flex-col md:flex-row px-4 justify-between items-center">
+          <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-bold">Card Number</h3>
             <p className="text-sm text-gray-500">Enter the 16-digit number on the card</p>
           </div>
@@ -20,3 +20,4 @@ const CardNumber = () => {
 }
 
 export default CardNumber;
+

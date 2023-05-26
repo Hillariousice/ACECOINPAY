@@ -240,3 +240,56 @@
   .py-checkout .py-checkout-details .py-purchase-total img {
     height: 1.6em;
   }
+
+  
+  /* Add media query for small screens */
+  @media (max-width: 768px) {
+    .py-checkout .py-credit-card {
+      width: 100%;
+      height: auto;
+      padding: 1.5em;
+    }
+  }
+  
+  /* Add media query for medium screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .py-checkout .py-credit-card {
+      width: 20em;
+      height: 28.4em;
+      padding: 2em;
+    }
+  }
+  
+  /* Add media query for large screens */
+  @media (min-width: 1025px) {
+    .py-checkout .py-credit-card {
+      width: 24em;
+      height: 34.8em;
+      padding: 2.5em;
+    }
+  }
+  
+  /* Add other responsive styles as needed for different elements and screen sizes */
+  /* Example: */
+  
+  @media (max-width: 768px) {
+    .py-checkout .py-credit-card__head {
+      margin-bottom: 5em;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .py-checkout .py-credit-card__head {
+      margin-bottom: 6em;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .py-checkout .py-credit-card__head {
+      margin-bottom: 8em;
+    }
+  }
+  
+  /* Add responsive styles for other elements as needed */
+  
+  

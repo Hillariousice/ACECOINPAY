@@ -7,13 +7,8 @@ function App() {
 
       <div>
         <PaymentDetails/>
-
-       
       </div>
 
-
-
-    
     </div>
   );
 }
