@@ -1,0 +1,239 @@
+
+.py-checkout {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: right;
+   
+  
+  }
+  .py-checkout .py-credit-card {
+    width: 16em;
+    height: 23.4em;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), #fff);
+    backdrop-filter: blur(15px);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0px 4px 14px 2px rgba(224, 224, 224, 0.6);
+    position: relative;
+    z-index: 99;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+  }
+  .py-checkout .py-credit-card__head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    margin-bottom: 8em;
+  }
+  .py-checkout .py-credit-card__head .py-doc {
+    height: 1.8em;
+  }
+  .py-checkout .py-credit-card__head .py-chip {
+    height: 3.5em;
+  }
+  .py-checkout .py-credit-card__body {
+    position: relative;
+    color: #05365c;
+  }
+  .py-checkout .py-credit-card__body span {
+    display: block;
+  }
+  .py-checkout .py-credit-card__body .py-holder {
+    text-transform: capitalize;
+    font-size: 0.95em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    color: #616161;
+  }
+  .py-checkout .py-credit-card__body .card-digits {
+    display: flex;
+    margin-bottom: 0.5em;
+  }
+  .py-checkout .py-credit-card__body .py-card-digits .py-hidden-digits {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: initial;
+    margin-right: 0.5em;
+  }
+  .py-checkout .py-credit-card__body .py-card-digits .py-hidden-digits .circle {
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    background-color: #17254c;
+    margin-right: 0.4em;
+  }
+  .py-checkout .py-credit-card__body .py-card-digits .visible-digits {
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  .py-checkout .py-credit-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    position: relative;
+    top: 1.4em;
+  }
+  .py-checkout .py-credit-card__footer .py-expiry {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .py-checkout .py-credit-card__footer .logo {
+    height: 2.5em;
+  }
+  .py-checkout .py-credit-card .py-card__design {
+    width: 700px;
+    height: 700px;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3.5em;
+    left: -6em;
+    z-index: -1;
+  }
+  .py-checkout .py-credit-card .py-card__design .inner {
+    display: inline-block;
+    width: 570px;
+    height: 570px;
+    border-radius: inherit;
+    border: inherit;
+  }
+  .py-checkout .py-blu {
+    display: block;
+    height: 1.5em;
+    width: 5em;
+    background-color: #035fff;
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .py-checkout .py-checkout-details {
+    background-color: #f0f3f8;
+    height: 82%; /* 100% */
+    width: 100%;
+    border-radius: 1em;
+    bottom: 0;
+  }
+  .py-checkout .py-app{
+    background-color: #f0f3f8;
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 1em;
+    bottom: 0;
+  }
+  .py-checkout .py-checkout-details .py-purchase-data {
+    position: relative;
+    padding: 1.9em;
+  }
+  .py-checkout .py-checkout-details .py-purchase-data .py-data  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #8e96a3;
+    margin-bottom: 1.3em;
+  }
+  .py-checkout .py-checkout-details .py-purchase-data .py-data .title {
+    font-size: 0.85em;
+    font-weight: 500;
+
+  }
+  .py-checkout .py-checkout-details .py-purchase-data .py-data .value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+    
+  }
+  .py-checkout .py-checkout-details .py-purchase-data .py-data .value .py-doc {
+    height: 1.5em;
+  }
+  .py-checkout .py-checkout-details .py-purchase-data .py-data .value .inner-text {
+    color: #05365c;
+    font-weight: 600;
+    margin-left: 0.6em;
+  }
+  .py-checkout .py-checkout-details .py-divider {
+    position: absolute;
+    bottom: 7.4em;
+    width: 100%;
+    border: 4px dashed #cbcbcb;
+    display: flex;
+    align-items: center;
+  }
+  .py-checkout .py-checkout-details .py-divider .left, .py-checkout .py-checkout-details .py-divider .py-right {
+    position: absolute;
+    height: 2.65em;
+    width: 2.65em;
+    background-color: #fff;
+    border-radius: 50%;
+
+   
+  }
+ 
+  .py-checkout .py-checkout-details .py-divider .py-right {
+    bottom: -15px;
+    right: -25px;
+  }
+  .py-checkout .py-checkout-details .py-divider::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    background-color: #f0f3f8;
+    bottom: -30px;
+  } 
+   .py-checkout .py-checkout-details .py-purchase-total {
+    position: absolute;
+    bottom: 1.4em;
+    width: 100%;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: initial;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .total .desc {
+    color: #8e96a3;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .total .t-amount {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: initial;
+    color: #05365c;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .total .t-amount .amount {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .total .t-amount .amount sub {
+    font-size: 0.6em;
+    position: relative;
+    bottom: 1px;
+    font-weight: 500;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .total .t-amount .symbol {
+    position: relative;
+    top: 4px;
+    font-size: 1.1em;
+    margin-left: 0.2em;
+    color: #8e96a3;
+  }
+  .py-checkout .py-checkout-details .py-purchase-total .py-doc {
+    height: 1.6em;
+  }
