@@ -76,7 +76,7 @@ const PayCard = () => {
                 <span className="symbol">USD</span>
               </div>
             </div>
-            <img src={Docket} alt="" className='py-doc'/>
+            <img src={Docket} alt="" className=''/>
           </div>
         </div>
       </div>
